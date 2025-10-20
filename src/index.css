@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-showlist: ShowList 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid orange; /* Creates padding around the thumb */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: white;
+  border: #333 1px solid;
+}
+
+@keyframes ShowList {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
