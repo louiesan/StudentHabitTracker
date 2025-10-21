@@ -18,7 +18,6 @@ export default function GlobalContext({ children }) {
     Target: <Target />,
     RadarIcon: <RadarIcon />,
     Gamepad2: <Gamepad2 />,
-    RadarIcon: <RadarIcon />,
   };
 
   function removeHabit(habit) {
