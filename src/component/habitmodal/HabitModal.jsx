@@ -1,7 +1,7 @@
 import { useContext, useState, useRef } from "react";
 import useOutsideClicker from "../../hooks/useOutsideClicker";
 import { HabitsContext } from "../../context/habitContext";
-import Categories from "./modalComp/category";
+import Categories from "./modalComp/Category";
 import Time from "./modalComp/Time";
 import { nanoid } from "nanoid";
 
